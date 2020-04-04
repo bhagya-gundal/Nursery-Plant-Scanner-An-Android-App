@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blond"
+    tools:context="com.example.android.nps.MainActivity5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible"/>
+    
+        <EditText
+            android:id="@+id/plant_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Plant Name"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"/>
+
+        <EditText
+            android:id="@+id/common_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Common Name"/>
+
+        <EditText
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Color"/>
+
+        <EditText
+            android:id="@+id/bloom_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bloom Time"/>
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height"/>
+
+        <EditText
+            android:id="@+id/difficulty_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Difficulty Level"/>
+
+        <EditText
+            android:id="@+id/planting_and_care"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Planting and Care"/>
+
+        <EditText
+            android:id="@+id/sunlight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sunlight"/>
+
+        <EditText
+            android:id="@+id/soil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Soil"/>
+
+        <EditText
+            android:id="@+id/water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Water"/>
+
+        <EditText
+            android:id="@+id/temperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Temperature"/>
+
+        <EditText
+            android:id="@+id/fertilizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fertilizer"/>
+
+        <EditText
+            android:id="@+id/special_feature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Special Feature"/>
+
+        <EditText
+            android:id="@+id/medicinal_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medicinal Use"/>
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"/>
+
+        <Button
+            android:id="@+id/save_in_db_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="@string/save_in_db_button"/>
+
+    </LinearLayout>
+
+</ScrollView>

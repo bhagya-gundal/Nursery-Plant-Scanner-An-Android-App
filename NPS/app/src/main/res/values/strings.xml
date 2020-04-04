@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NPS</string>
+    <string name="title_mainactivity3">Load Image</string>
+    <string name="title_mainactivity4">Search</string>
+    <string name="title_mainactivity5">Fill Form</string>
+    <string name="title_mainactivity6">Plant Information</string>
+    <string name="title_mainactivity7">Add Plants To Cart</string>
+    <string name="title_mainactivity8">Your Bill</string>
+    <string name="button1">Plant Identification</string>
+    <string name="button2">Plant Information</string>
+    <string name="button3">Generate Bill</string>
+    <string name="option1">Capture image from camera</string>
+    <string name="option2">Load image from gallery</string>
+    <string name="search_hint">Enter name of plant to be searched</string>
+    <string name="search_button">Search in database</string>
+    <string name="save_in_db_button">Save in Database</string>
+</resources>
